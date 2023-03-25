@@ -1,6 +1,6 @@
 {
     "name": "razu/featured-post",
-    "description": "A plugin to add add a settings page under settings menu, and a shortcode to show featured posts by using filters from the settings page.",
+    "description": "A plugin to add a settings page under settings menu, and a shortcode to show featured posts by using filters from the settings page.",
     "type": "wordpress-plugin",
     "license": "GPL v2",
     "authors": [
