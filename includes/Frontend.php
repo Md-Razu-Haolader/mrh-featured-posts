@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MRH\FeaturedPost;
 
 use MRH\FeaturedPost\Frontend\Shortcode;
-use MRH\FeaturedPost\Frontend\PostViewHandler;
 
 /**
  * Frontend handler class
