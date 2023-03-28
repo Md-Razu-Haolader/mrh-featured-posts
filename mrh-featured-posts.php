@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare( strict_types=1 );
 /**
  * Plugin Name:       Featured Post
  * Plugin URI:        razu.cse129@gmail.com
@@ -13,10 +13,9 @@ declare(strict_types=1);
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       mrh-featured-posts
- * 
- * 
+ *
  * Copyright (c) 2023 Md. Razu Haolader (razu.cse129@gmail.com). All rights reserved.
- * 
+ *
  * This program is a free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
@@ -30,8 +29,7 @@ declare(strict_types=1);
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see the License URI.
  */
-
-if (!defined('ABSPATH')) {
+if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
 
@@ -39,15 +37,12 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use MRH\FeaturedPost\FeaturedPost;
 
-define('MRHFP_FILE', __FILE__);
-define('MRHFP_PATH', __DIR__);
+define( 'MRHFP_FILE', __FILE__ );
+define( 'MRHFP_PATH', __DIR__ );
 /**
  * Initializes the main plugin
- *
- * @return FeaturedPost
  */
-function feature_posts(): FeaturedPost
-{
+function feature_posts(): FeaturedPost {
     return FeaturedPost::instance();
 }
 
