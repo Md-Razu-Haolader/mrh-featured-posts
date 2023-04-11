@@ -2,7 +2,7 @@
 
 declare( strict_types=1 );
 
-namespace MRH\FeaturedPost\Tests;
+namespace MRH\FeaturedPost\Tests\Unit;
 
 use MRH\FeaturedPost\Helpers\Template as TemplateHelper;
 use RuntimeException;
